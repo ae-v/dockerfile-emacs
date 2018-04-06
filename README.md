@@ -16,7 +16,7 @@ Docker Image for [GNU Emacs](https://www.gnu.org/software/emacs/).
 ```bash
 $ docker run \
     --rm \
-    --it \
+    -it \
     quay.io/dtan4/emacs \
     emacs -nw
 ```
